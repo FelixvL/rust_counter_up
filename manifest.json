@@ -1,0 +1,15 @@
+{
+    "name": "countup.fse",
+    "description": "countup",
+    "architecture": "@CLICK_ARCH@",
+    "title": "CountUp",
+    "hooks": {
+        "countup": {
+            "apparmor": "countup.apparmor",
+            "desktop":  "countup.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "fse <f@s.e>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
